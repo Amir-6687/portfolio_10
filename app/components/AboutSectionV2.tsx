@@ -15,7 +15,7 @@ export const AboutSectionV2 = ({ className = "" }: { className?: string }) => {
         <AnimatedH2>
           <span className="text-slate-500">About</span>
           <br />
-          Austin Serb
+          Amir Akbari{" "}
         </AnimatedH2>
         <div className="flex flex-col-reverse gap-12 md:flex-row md:gap-16">
           {/* ---------------- left column ---------------- */}
@@ -23,7 +23,7 @@ export const AboutSectionV2 = ({ className = "" }: { className?: string }) => {
           <div className="flex [flex:1_0_0px] flex-col gap-6">
             {/* portrait + overlay icons */}
 
-            <ImageReveal src={profilePhoto} alt="Austin Serb" className="custom-shadow aspect-[4/4.5]" />
+            <ImageReveal src={profilePhoto} alt="Amir Akbari" className="custom-shadow aspect-[4/4.5]" />
 
             {/* name + role */}
             <MotionDiv
@@ -32,7 +32,7 @@ export const AboutSectionV2 = ({ className = "" }: { className?: string }) => {
               viewport={{ once: true, margin: "0px 0px -100px 0px" }}
             >
               <Text as="h2" size="lg" className="font-medium">
-                Austin Serb
+                Amir Akbari{" "}
               </Text>
               <p className="text-sm text-gray-500">Full-Stack Engineer (Next.js + TypeScript)</p>
             </MotionDiv>
@@ -58,7 +58,7 @@ export const AboutSectionV2 = ({ className = "" }: { className?: string }) => {
             </p>
 
             {/* signature */}
-            <Image src={signature} alt="Austin Serb Signature" className="relative mt-6 -ml-3 h-12 w-auto" />
+            <Image src={signature} alt="Amir Akbari Signature" className="relative mt-6 -ml-3 h-12 w-auto" />
           </Typography>
         </div>
       </div>

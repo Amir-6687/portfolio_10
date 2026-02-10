@@ -19,7 +19,7 @@ export const HeroV2 = () => {
 
           <h1 className="xs:text-5xl relative z-5 text-4xl leading-[1] font-medium tracking-tight text-slate-900 sm:text-6xl lg:text-7xl">
             <AnimatedElement element="span" offsetPx={20} fadeDirection="left" className="inline-block">
-              Austin Serb
+              Amir Akbari{" "}
             </AnimatedElement>{" "}
             <br />
             <AnimatedElement element="span" offsetPx={40} delay={0.2} fadeDirection="top" className="inline-block"></AnimatedElement>

@@ -84,10 +84,10 @@ export const FooterV2: React.FC = () => {
               </Link> */}
             </div>
           </div>
-          <span className="text-[#b8b8b8]">© 2025 Austin Serb</span>
+          <span className="text-[#b8b8b8]">© 2026 Amir Akbari</span>
         </div>
         <h2 className="large-brand-text absolute -bottom-16 left-0 flex w-full items-center justify-center font-medium whitespace-nowrap text-white md:text-[180px] lg:text-[240px]">
-          Austin Serb
+          Amir Akbari
         </h2>
       </div>
     </footer>

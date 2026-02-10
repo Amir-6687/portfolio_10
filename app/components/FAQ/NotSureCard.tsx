@@ -36,7 +36,7 @@
 //             </AnimatedElement>
 //           </div>
 //         ) : (
-//           <Image src={profilePhoto} height={64} width={64} alt="Austin Serb" className="aspect-square rounded-full object-cover" sizes="200px" />
+//           <Image src={profilePhoto} height={64} width={64} alt="Amir Akbari" className="aspect-square rounded-full object-cover" sizes="200px" />
 //         )}
 //         <H3 className={clsx("font-normal text-nowrap", projectsPage && "text-center")}>
 //           <span className="text-slate-500">{projectsPage ? "Like what you see?" : "Still not sure?"}</span> <br />
