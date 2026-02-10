@@ -2,7 +2,7 @@ import Image from "next/image"
 import { H3, Text } from "@/app/ui/Elements"
 import { MotionDiv } from "@/app/utils/lazy-ui"
 import { Icon } from "./Icon"
-import profilePhoto from "@/app/images/profile.webp"
+import profilePhoto from "@/app/images/Portfolio_Foto.png"
 import { SITE_NAP } from "@/config/siteConfig"
 import { Mail } from "@react-zero-ui/icon-sprite"
 import { BlackButtonLink } from "./ui/BlackButtonLink"
@@ -24,7 +24,7 @@ export const RecruiterContact: React.FC = () => {
               <Image src={profilePhoto} alt="Austin Serb" fill sizes="80px" className="object-cover" />
             </div>
             <div className="flex flex-col items-start text-sm whitespace-nowrap text-slate-700">
-              <h2 className="font-medium text-slate-900">Austin Serb</h2>
+              <h2 className="font-medium text-slate-900">Amir Akbari</h2>
               <p className="text-slate-500">Full-Stack - Frontend Focused</p>
             </div>
           </div>

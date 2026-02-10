@@ -1,5 +1,5 @@
 import Image from "next/image"
-import profilePhoto from "@/public/assets/founder.jpg"
+import profilePhoto from "@/public/assets/founder.png"
 import clsx from "clsx"
 import type { Variants } from "motion"
 import { MotionButton, MotionDiv } from "@/app/utils/lazy-ui"
