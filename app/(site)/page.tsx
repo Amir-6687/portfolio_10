@@ -6,6 +6,8 @@ import { RecruiterContact } from "../components/RecruiterContact"
 import { Metadata } from "next"
 import { SITE_CONFIG, SITE_SLUGS } from "@/config/siteConfig"
 import { homeGraph } from "@/config/schemas"
+import { NeuralBackground } from "../components/NeuralBackground"
+
 import Script from "next/script"
 
 export const metadata: Metadata = {
@@ -35,21 +37,13 @@ export const metadata: Metadata = {
 
 const PortfolioPage: React.FC = () => {
   return (
-    <main className="overflow-hidden">
-      <Script
+    <main className="relative overflow-hidden">
+      {" "}
+      <NeuralBackground /> <Script
         id="id-site-schema"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(homeGraph),
-        }}
-      />
-      <HeroV2 />
-      <div className="border-b border-gray-200" />
-      <ProjectsSection />
-      <AboutSectionV2 />
-      <ServicesSectionV2 />
-      <RecruiterContact />
-      {/* <FAQSection /> */}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeGraph) }}
+      /> <HeroV2 /> <div className="border-b border-gray-200" /> <ProjectsSection /> <AboutSectionV2 /> <ServicesSectionV2 /> <RecruiterContact />{" "}
     </main>
   )
 }
