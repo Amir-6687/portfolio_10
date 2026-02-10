@@ -9,7 +9,7 @@ import { projectsGraph } from "@/config/schemas"
 export const metadata: Metadata = {
   title: "Amir Akbari - Projects & Case Studies",
   description: "Featured work by Amir Akbari: production Next.js + TypeScript systems, React Zero-UI, and selected client builds. Outcomes, scope, and links.",
-  keywords: ["Amir Akbari", "Projects", "Case Studies", "React Zero-UI", "Next.js", "React", "TypeScript", "Serbyte", "Seattle"],
+  keywords: ["Amir Akbari", "Projects", "Case Studies", "React Zero-UI", "Next.js", "React", "TypeScript", "Serbyte", "Köln"],
   alternates: {
     canonical: SITE_SLUGS.projects,
   },

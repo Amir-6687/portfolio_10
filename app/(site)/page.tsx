@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "React",
     "TypeScript",
     "Full-Stack Engineer",
-    "Seattle",
+    "Köln",
 
     "React Developer Portfolio",
   ],

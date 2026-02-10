@@ -14,7 +14,7 @@ export const HeroV2 = () => {
             className="z-2 inline-flex items-center gap-2 self-start rounded-full border border-gray-100 bg-white px-3 py-2 text-xs font-medium shadow-lg"
           >
             <ActivityDot />
-            Seattle, WA
+            Köln , Deutschland
           </AnimatedElement>
 
           <h1 className="xs:text-5xl relative z-5 text-4xl leading-[1] font-medium tracking-tight text-slate-900 sm:text-6xl lg:text-7xl">

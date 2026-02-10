@@ -4,9 +4,9 @@ import { Metadata } from "next"
 import { SITE_SLUGS } from "@/config/siteConfig"
 
 export const metadata: Metadata = {
-  title: "Amir Akbari - Projects Iron & Oak Seattle",
-  description: "How I created a storytelling-focused website for Iron & Oak Seattle, achieving 4100% traffic growth and 290% increase in job applicants.",
-  keywords: ["Amir Akbari", "Iron & Oak", "Seattle", "Private Security", "Next.js", "Web Design", "Storytelling", "Serbyte"],
+  title: "Amir Akbari - Projects Iron & Oak Köln",
+  description: "How I created a storytelling-focused website for Iron & Oak Köln, achieving 4100% traffic growth and 290% increase in job applicants.",
+  keywords: ["Amir Akbari", "Iron & Oak", "Köln", "Private Security", "Next.js", "Web Design", "Storytelling", "Serbyte"],
   alternates: {
     canonical: SITE_SLUGS.projectLinks.iao,
   },

@@ -73,7 +73,7 @@ export const FooterV2: React.FC = () => {
         <div className="flex flex-col-reverse justify-between gap-2 text-xs text-nowrap md:flex-row">
           <div className="flex items-center gap-5.5 max-sm:flex-wrap">
             <h3>
-              <span className="text-[#b8b8b8]">Based in </span> Seattle, Washington, USA
+              <span className="text-[#b8b8b8]">Based in </span> KÖLN, DEUTSCHLAND
             </h3>
             <div className="flex gap-4">
               {/* <Link href="/terms-of-service" className="text-sm transition-colors duration-200 hover:text-gray-300">

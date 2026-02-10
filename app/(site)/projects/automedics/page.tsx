@@ -6,7 +6,7 @@ import { SITE_SLUGS } from "@/config/siteConfig"
 export const metadata: Metadata = {
   title: "Amir Akbari - Projects AutoMedics Kirkland",
   description: "How I transformed AutoMedics Kirkland's online presence with 960% traffic growth through conversion-focused web design and local SEO.",
-  keywords: ["Amir Akbari", "AutoMedics", "Kirkland", "Auto Repair", "Next.js", "Web Design", "Local SEO", "Serbyte", "Seattle"],
+  keywords: ["Amir Akbari", "AutoMedics", "Kirkland", "Auto Repair", "Next.js", "Web Design", "Local SEO", "Serbyte", "Köln"],
   alternates: {
     canonical: SITE_SLUGS.projectLinks.automedics,
   },
