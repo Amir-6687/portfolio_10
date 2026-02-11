@@ -16,11 +16,12 @@ const initialOffsets: Record<string, Partial<HeroOffset>> = {
     x: 118.796875,
     y: -748,
   },
-  bespoke: {
-    x: 118.796875,
+  tarkhineh: {
+    x: 118.796875, // مقدار اولیه مهم نیست، بعداً calc() مقدار واقعی را می‌گذارد
     y: -980.328125,
   },
 }
+
 export function useOffset(cardIds: string[]) {
   const offsetsRef = useRef(initialOffsets)
   const [, force] = useReducer((x) => x + 1, 0) // cheap re-render trigger

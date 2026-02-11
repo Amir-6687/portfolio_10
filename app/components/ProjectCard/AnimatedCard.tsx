@@ -45,10 +45,10 @@ export function AnimatedCard({ src, alt, offset, color, type, gridId, progress, 
         ref={ref}
         style={
           {
-            "--tx": `${offset.x}px`,
-            "--ty": `${offset.y}px`,
-            "--rot": `${offset.rot}deg`,
-            "--sc": `${offset.s}`,
+            "--tx": `${offset?.x ?? 0}px`,
+            "--ty": `${offset?.y ?? 0}px`,
+            "--rot": `${offset?.rot ?? 0}deg`,
+            "--sc": `${offset?.s ?? 1}`,
           } as React.CSSProperties
         }
         className={clsx("group relative h-full w-full transform-gpu opacity-1 will-change-[transform,opacity] contain-content backface-hidden")}
