@@ -1,7 +1,7 @@
 export const DOMAIN_URL = "https://www.austinserb.com"
 
 export const SITE_CONFIG = {
-  title: "Austin Serb - Web Developer Portfolio | React & Next.js",
+  title: "Amir Akbari - Web Developer Portfolio | React & Next.js",
   description: "Portfolio of Austin Serb, Seattle-based full-stack engineer. Specializing in Next.js, React, TypeScript, and Tailwind CSS.",
   url: DOMAIN_URL ?? "http://localhost:3000",
   siteName: "Amir Akbari - Web Developer Portfolio",
