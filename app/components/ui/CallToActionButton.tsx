@@ -60,33 +60,63 @@ export const CallToActionButton = () => {
   }
 
   return (
-    <a href={SITE_NAP.profiles.github} target="_blank" rel="noopener" aria-label="Amir Akbari's GitHub">
-      <MotionButton
-        initial="initial"
-        animate="animate"
-        whileHover="hover"
-        variants={buttonVariants}
-        className="group bubble-hover-cta active relative z-1 inline-flex w-max items-center gap-2 rounded-full bg-black px-3 py-2.5 text-base font-medium tracking-tight text-white shadow-xl shadow-black/20"
-      >
-        <div className="pointer-events-none absolute inset-0.5 -z-1 rounded-full [background-image:url('/assets/framer-noise.png')] [background-size:164px] bg-repeat opacity-12" />
-        <div className="relative flex items-center gap-1">
-          {/* Avatar */}
-          <div className="relative h-7 w-7 rounded-full">
-            <Image src={profilePhoto} alt="Profile photo of the founder" fill sizes="50px" className="rounded-full object-cover ring-2 ring-white/75" />
-          </div>
+    <div className="flex flex-col gap-2 md:flex-row md:gap-2">
+      <a href={SITE_NAP.profiles.github} target="_blank" rel="noopener" aria-label="Amir Akbari's GitHub">
+        <MotionButton
+          initial="initial"
+          animate="animate"
+          whileHover="hover"
+          variants={buttonVariants}
+          className="group bubble-hover-cta active relative z-1 inline-flex w-max items-center gap-2 rounded-full bg-black px-3 py-2.5 text-base font-medium tracking-tight text-white shadow-xl shadow-black/20"
+        >
+          <div className="pointer-events-none absolute inset-0.5 -z-1 rounded-full [background-image:url('/assets/framer-noise.png')] [background-size:164px] bg-repeat opacity-12" />
+          <div className="relative flex items-center gap-1">
+            {/* Avatar */}
+            <div className="relative h-7 w-7 rounded-full">
+              <Image src={profilePhoto} alt="Profile photo of the founder" fill sizes="50px" className="rounded-full object-cover ring-2 ring-white/75" />
+            </div>
 
-          {/* + You entrance */}
-          <MotionDiv variants={youVariants} className={clsx("hidden items-center gap-1 md:flex")}>
-            <span className="text-xl">+</span>
-            <Icon
-              name="github"
-              className="flex h-7 w-7 items-center justify-center rounded-full bg-white text-sm font-semibold text-black ring-1 ring-black/50"
-            />
-          </MotionDiv>
-        </div>
-        See My Github
-      </MotionButton>
-    </a>
+            {/* + You entrance */}
+            <MotionDiv variants={youVariants} className={clsx("hidden items-center gap-1 md:flex")}>
+              <span className="text-xl">+</span>
+              <Icon
+                name="github"
+                className="flex h-7 w-7 items-center justify-center rounded-full bg-white text-sm font-semibold text-black ring-1 ring-black/50"
+              />
+            </MotionDiv>
+          </div>
+          See My Github
+        </MotionButton>
+      </a>
+
+      <a href={SITE_NAP.profiles.linkedIn} target="_blank" rel="noopener" aria-label="Amir Akbari's LinkedIn">
+        <MotionButton
+          initial="initial"
+          animate="animate"
+          whileHover="hover"
+          variants={buttonVariants}
+          className="group bubble-hover-cta active relative z-1 inline-flex w-max items-center gap-2 rounded-full bg-blue-600 px-3 py-2.5 text-base font-medium tracking-tight text-white shadow-xl shadow-blue-600/20"
+        >
+          <div className="pointer-events-none absolute inset-0.5 -z-1 rounded-full [background-image:url('/assets/framer-noise.png')] [background-size:164px] bg-repeat opacity-12" />
+          <div className="relative flex items-center gap-1">
+            {/* Avatar */}
+            <div className="relative h-7 w-7 rounded-full">
+              <Image src={profilePhoto} alt="Profile photo of the founder" fill sizes="50px" className="rounded-full object-cover ring-2 ring-white/75" />
+            </div>
+
+            {/* + You entrance */}
+            <MotionDiv variants={youVariants} className={clsx("hidden items-center gap-1 md:flex")}>
+              <span className="text-xl">+</span>
+              <Icon
+                name="linkedin"
+                className="flex h-7 w-7 items-center justify-center rounded-full bg-white text-sm font-semibold text-blue-600 ring-1 ring-blue-600/50"
+              />
+            </MotionDiv>
+          </div>
+          See My LinkedIn
+        </MotionButton>
+      </a>
+    </div>
   )
 }
 
