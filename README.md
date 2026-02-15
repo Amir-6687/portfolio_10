@@ -66,6 +66,7 @@ As long as youâ€™re learning and creating something new from this repository, Iâ
 
 This portfolio is here to inspire, teach, and challenge your engineering instincts.
 If it helps you become a better developer, it already accomplished what I wanted.
+Thank you so much .
 
 ### Contact
 
