@@ -1,7 +1,7 @@
 import { StaticImageData } from "next/image"
 import { Card } from "@/app/components/ProjectCard/Card"
 import iaoPreview from "@/app/images/iao-preview-v2.webp"
-import bespokePreview from "@/app/images/bespoke-preview-v2.webp"
+import tarkhinehPreview from "@/app/images/Tarkhineh-project.jpg"
 import automedicsPreview from "@/app/images/automedics-preview-v2.webp"
 import entitledPreview from "@/app/images/entitled-preview-v2.webp"
 import IconSpritePreview from "@/app/images/zero-icon-sprite-preview.jpg"
@@ -37,15 +37,15 @@ export const STATIC_PROJECTS: StaticProject[] = [
     isExternal: true,
   },
   {
-    id: "bespoke",
-    src: bespokePreview,
-    alt: "Bespoke Preview",
-    color: "#024EFC",
-    type: "Automotive Styling Website",
+    id: "tarkhineh",
+    src: tarkhinehPreview,
+    alt: "Tarkhineh Restaurant Website",
+    color: "#0A7F42",
+    type: "Restaurant Website",
     text: "See Case Study",
-    href: SITE_SLUGS.projectLinks.bespoke,
+    href: SITE_SLUGS.projectLinks.tarkhineh,
     dataText: "See Case Study",
-    ariaLabel: "See Bespoke Website Build Case Study",
+    ariaLabel: "See Tarkhineh Restaurant Website Build Case Study",
     isExternal: false,
   },
   {

@@ -48,6 +48,7 @@ export const SITE_SLUGS = {
     iao: "/projects/iron-and-oak",
     automedics: "/projects/automedics",
     bespoke: "/projects/bespoke",
+    tarkhineh: "/projects/tarkhineh",
   },
 } as const
 
