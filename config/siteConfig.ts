@@ -52,6 +52,7 @@ export const SITE_SLUGS = {
 } as const
 
 export const externalLinks = {
+  rayanState: "https://rayan-state.vercel.app/",
   vetsChoice: "https://vetschoiceinsurance.com/",
   zeroIconSprite: "https://github.com/react-zero-ui/icon-sprite",
   zeroCore: "https://github.com/react-zero-ui/core",

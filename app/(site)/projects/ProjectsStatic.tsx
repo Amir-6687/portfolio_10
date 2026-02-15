@@ -5,7 +5,7 @@ import bespokePreview from "@/app/images/bespoke-preview-v2.webp"
 import automedicsPreview from "@/app/images/automedics-preview-v2.webp"
 import entitledPreview from "@/app/images/entitled-preview-v2.webp"
 import IconSpritePreview from "@/app/images/zero-icon-sprite-preview.jpg"
-import zeroPreview from "@/app/images/react-zero-ui-preview.jpg"
+import rayanStatePreview from "@/app/images/rayan-state-preview.svg"
 import vetsChoiceInsurancePreview from "@/images/vets-choice-insurance-preview.webp"
 import { Link } from "@/app/utils/Link"
 import { externalLinks, SITE_SLUGS } from "@/config/siteConfig"
@@ -25,15 +25,15 @@ type StaticProject = {
 
 export const STATIC_PROJECTS: StaticProject[] = [
   {
-    id: "react-zero-ui",
-    src: zeroPreview,
-    alt: "React-Zero-UI - Preview",
-    color: "#3B06D1",
-    type: "Zero Re-Render State Library",
-    text: "View on GitHub",
-    href: externalLinks.zeroCore,
-    dataText: "View on GitHub",
-    ariaLabel: "View React Zero UI on GitHub",
+    id: "rayan-state",
+    src: rayanStatePreview,
+    alt: "Rayan State - Preview",
+    color: "#1e40af",
+    type: "Real Estate Platform",
+    text: "View Website",
+    href: externalLinks.rayanState,
+    dataText: "View Website",
+    ariaLabel: "View Rayan State Website",
     isExternal: true,
   },
   {

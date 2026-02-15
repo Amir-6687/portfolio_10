@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f5f5f5"/>
+  
+  <!-- Hero section -->
+  <rect width="400" height="150" fill="#1e40af"/>
+  
+  <!-- Header text -->
+  <text x="200" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle">Rayan State</text>
+  <text x="200" y="85" font-family="Arial, sans-serif" font-size="14" fill="#e0e7ff" text-anchor="middle">Real Estate Platform</text>
+  
+  <!-- Property cards mockup -->
+  <g>
+    <!-- Card 1 -->
+    <rect x="20" y="170" width="110" height="110" rx="8" fill="white" stroke="#ddd" stroke-width="1"/>
+    <rect x="20" y="170" width="110" height="70" rx="8" fill="#3b82f6"/>
+    <text x="75" y="245" font-family="Arial, sans-serif" font-size="11" fill="#333" text-anchor="middle">Property 1</text>
+    
+    <!-- Card 2 -->
+    <rect x="145" y="170" width="110" height="110" rx="8" fill="white" stroke="#ddd" stroke-width="1"/>
+    <rect x="145" y="170" width="110" height="70" rx="8" fill="#06b6d4"/>
+    <text x="200" y="245" font-family="Arial, sans-serif" font-size="11" fill="#333" text-anchor="middle">Property 2</text>
+    
+    <!-- Card 3 -->
+    <rect x="270" y="170" width="110" height="110" rx="8" fill="white" stroke="#ddd" stroke-width="1"/>
+    <rect x="270" y="170" width="110" height="70" rx="8" fill="#8b5cf6"/>
+    <text x="325" y="245" font-family="Arial, sans-serif" font-size="11" fill="#333" text-anchor="middle">Property 3</text>
+  </g>
+</svg>
