@@ -39,8 +39,8 @@ export const FooterV2: React.FC = () => {
           <ul className="flex flex-col justify-between gap-5.5 border-b border-gray-500 pb-6 text-sm md:flex-row md:items-center md:gap-8">
             <li className="flex flex-col gap-1 md:gap-2">
               <span className="text-gray-500">Email</span>
-              <Link href="mailto:austin@serbyte.net" className="w-fit text-sm transition-colors duration-200 hover:text-gray-300">
-                austin@serbyte.net
+              <Link href={`mailto:${SITE_NAP.email}`} className="w-fit text-sm transition-colors duration-200 hover:text-gray-300">
+                {SITE_NAP.email}
               </Link>
             </li>
             {/* <li className="flex flex-col gap-1 md:gap-2">
