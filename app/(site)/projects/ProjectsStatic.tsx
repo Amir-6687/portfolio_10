@@ -2,7 +2,7 @@ import { StaticImageData } from "next/image"
 import { Card } from "@/app/components/ProjectCard/Card"
 import iaoPreview from "@/app/images/iao-preview-v2.webp"
 import tarkhinehPreview from "@/app/images/Tarkhineh-project.jpg"
-import automedicsPreview from "@/app/images/automedics-preview-v2.webp"
+import secondHandPreview from "@/public/assets/Second-Hand-Home.png"
 import entitledPreview from "@/app/images/entitled-preview-v2.webp"
 import IconSpritePreview from "@/app/images/zero-icon-sprite-preview.jpg"
 import rayanStatePreview from "@/public/assets/Rayan_State_Bild.png"
@@ -74,16 +74,16 @@ export const STATIC_PROJECTS: StaticProject[] = [
   },
 
   {
-    id: "automedics",
-    src: automedicsPreview,
-    alt: "Automedics Preview",
-    color: "#000000",
-    type: "Automotive Repair Website",
-    text: "See Case Study",
-    href: SITE_SLUGS.projectLinks.automedics,
-    dataText: "See Case Study",
-    ariaLabel: "See Automedics Website Build Case Study",
-    isExternal: false,
+    id: "second-hand",
+    src: secondHandPreview,
+    alt: "Second-Hand Marketplace Preview",
+    color: "#4A6CF7",
+    type: "Second-Hand Marketplace",
+    text: "View Project",
+    href: "https://second-hand-vayr.vercel.app/",
+    dataText: "View Project",
+    ariaLabel: "View Second-Hand Marketplace Project",
+    isExternal: true,
   },
 
   {

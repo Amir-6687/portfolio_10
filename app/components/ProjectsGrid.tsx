@@ -11,8 +11,9 @@ import { useScroll, useSpring } from "motion/react"
 import { useUI } from "@react-zero-ui/core"
 import { externalLinks } from "@/config/siteConfig"
 import tarkhinehPreview from "@/app/images/Tarkhineh-project.jpg"
+import secondHandPreview from "@/public/assets/Second-Hand-Home.png"
 
-const ids = ["automedics", "rayan-state", "iron-and-oak", "tarkhineh"]
+const ids = ["second-hand", "rayan-state", "iron-and-oak", "tarkhineh"]
 
 export function ProjectsGrid({ className }: { className?: string }) {
   const ref = useRef<HTMLDivElement>(null)
@@ -33,7 +34,13 @@ export function ProjectsGrid({ className }: { className?: string }) {
   const OFFSET_TUNING: Record<string, Partial<HeroOffset>> = {
     "rayan-state": { rot: 9, s: responsiveScale, dx: isMobile ? -220 : -30, dy: isMobile ? -120 : -40 },
     "iron-and-oak": { rot: -5, s: responsiveScale, dx: isMobile ? -230 : -60, dy: isMobile ? -130 : -40 },
-    automedics: { rot: 5, s: responsiveScale, dx: isMobile ? -225 : -45, dy: isMobile ? -130 : -25 },
+    "second-hand": {
+      rot: 5,
+      s: responsiveScale,
+      dx: isMobile ? -225 : -45,
+      dy: isMobile ? -130 : -25,
+    },
+
     tarkhineh: {
       rot: 6,
       s: responsiveScale,
@@ -112,16 +119,18 @@ export function ProjectsGrid({ className }: { className?: string }) {
         />
 
         <AnimatedCard
-          key="Automedics"
-          src={automedicsPreview}
-          alt={"Automedics Preview"}
-          offset={offsets["automedics"]}
-          gridId="automedics"
-          color="#DA961A"
-          type="Automotive Repair"
+          key="SecondHand"
+          src={secondHandPreview}
+          alt="Second-Hand Marketplace Preview"
+          offset={offsets["second-hand"]}
+          gridId="second-hand"
+          color="#4A6CF7" // هر رنگی خواستی بگو عوض کنم
+          type="Second-Hand Marketplace"
           progress={progress}
-          dataText="View Case Study"
+          dataText="View Project"
+          href="https://second-hand-vayr.vercel.app/"
         />
+
         <AnimatedCard
           key={"IAO"}
           src={iaoPreview}
