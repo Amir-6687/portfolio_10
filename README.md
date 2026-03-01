@@ -22,9 +22,6 @@ I learned a ton building it, and I hope others can learn from it as well.
 
 ---
 
-MAnaged by Amir.h Akbari
-Feb 2026
-
 ### Usage Guidelines
 
 I’m sharing this repo publicly because I believe real-world examples help developers grow faster.
