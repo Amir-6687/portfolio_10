@@ -73,6 +73,3 @@ Thank you so much .
 **[owner@serbyte.net](mailto:owner@serbyte.net)**
 
 **[Serbyte Developent - Seattle](https://serbyte.net)**
-
-MAnaged by Amir.h Akbari
-Feb 2026
