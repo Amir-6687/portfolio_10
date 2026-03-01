@@ -22,7 +22,7 @@ I learned a ton building it, and I hope others can learn from it as well.
 
 ---
 
-Amir.h Akbari
+MAnaged by Amir.h Akbari
 Feb 2026
 
 ### Usage Guidelines
