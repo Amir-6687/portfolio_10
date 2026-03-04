@@ -36,6 +36,12 @@ You’re absolutely welcome to:
 - Borrow patterns and approaches
 - Apply concepts to your own style
 
+However, I ask that you **don’t clone or repurpose this portfolio directly**.
+
+It’s simply important to me that the design and structure don’t end up as a sea of lookalikes online.
+
+This project represents many hours of work and my engineering philosophy. I want to keep that identity intact.
+
 So Please:
 
 - Learn from it
