@@ -14,6 +14,15 @@ Feb 2026
 
 So this project became a playground for:
 
+- A fully custom Next.js 15 build
+- My Zero Re-render [UI State-management library React Zero UI](https://github.com/react-zero-ui/core)
+- Zero re-render animation patterns
+- Performance testing under heavy interaction
+- Making animations that actually work on mobile
+- Understanding the limits of server and client composition
+
+I learned a ton building it, and I hope others can learn from it as well.
+
 ---
 
 ### Usage Guidelines
