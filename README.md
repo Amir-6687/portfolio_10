@@ -42,18 +42,7 @@ It’s simply important to me that the design and structure don’t end up as a 
 
 This project represents many hours of work and my engineering philosophy. I want to keep that identity intact.
 
-So Please:
 
-- Learn from it
-- Build your own version
-- Take inspiration and evolve it
-- Put the Work/Time in
-
-Please Do NOT
-
-- Use this repo as a drop-in template for your portfolio
-- Ship a 1:1 copy of the code
-- Clone the identity
 
 ---
 
