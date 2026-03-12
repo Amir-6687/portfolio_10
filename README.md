@@ -65,14 +65,4 @@ As long as youâ€™re learning and creating something new from this repository, Iâ
 
 ---
 
-### Final Thoughts
 
-This portfolio is here to inspire, teach, and challenge your engineering instincts.
-If it helps you become a better developer, it already accomplished what I wanted.
-Thank you so much .
-
-### Contact
-
-**[owner@serbyte.net](mailto:owner@serbyte.net)**
-
-**[Serbyte Developent - Seattle](https://serbyte.net)**
