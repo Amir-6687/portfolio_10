@@ -73,6 +73,3 @@ Thank you so much .
 
 ### Contact
 
-**[owner@serbyte.net](mailto:owner@serbyte.net)**
-
-**[Serbyte Developent - Seattle](https://serbyte.net)**
