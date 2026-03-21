@@ -27,21 +27,6 @@ I learned a ton building it, and I hope others can learn from it as well.
 
 ### Usage Guidelines
 
-I’m sharing this repo publicly because I believe real-world examples help developers grow faster.
-You’re absolutely welcome to:
-
-- Read through the code
-- Explore the layout ideas
-- Study how the animation system works
-- Borrow patterns and approaches
-- Apply concepts to your own style
-
-However, I ask that you **don’t clone or repurpose this portfolio directly**.
-
-It’s simply important to me that the design and structure don’t end up as a sea of lookalikes online.
-
-This project represents many hours of work and my engineering philosophy. I want to keep that identity intact.
-
 So Please:
 
 - Learn from it
