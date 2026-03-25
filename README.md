@@ -57,22 +57,4 @@ Please Do NOT
 
 ---
 
-### A Note on Respecting Inspiration
 
-Since this project itself was HEAVILY inspired by Joseph Alexander’s Launchfolio concept, I’m especially aware of how design influence flows across the web. Inspiration is healthy. Cloning is not.
-
-As long as you’re learning and creating something new from this repository, I’m 100 percent supportive.
-
----
-
-### Final Thoughts
-
-This portfolio is here to inspire, teach, and challenge your engineering instincts.
-If it helps you become a better developer, it already accomplished what I wanted.
-Thank you so much .
-
-### Contact
-
-**[owner@serbyte.net](mailto:owner@serbyte.net)**
-
-**[Serbyte Developent - Seattle](https://serbyte.net)**
