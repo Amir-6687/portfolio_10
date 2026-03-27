@@ -9,7 +9,21 @@ A major creative spark for this project came from the Webflow/Framer site **“L
 
 Joseph’s work is incredible and set a visual bar that pushed me to explore what the same feel could perform like when rebuilt from scratch using real engineering practices. My goal wasn’t to replicate it, but to push myself technically while staying in conversation with that aesthetic.
 
+MAnaged by Amir.h Akbari
+Feb 2026
 
+So this project became a playground for:
+
+- A fully custom Next.js 15 build
+- My Zero Re-render [UI State-management library React Zero UI](https://github.com/react-zero-ui/core)
+- Zero re-render animation patterns
+- Performance testing under heavy interaction
+- Making animations that actually work on mobile
+- Understanding the limits of server and client composition
+
+I learned a ton building it, and I hope others can learn from it as well.
+
+---
 
 ### Usage Guidelines
 
