@@ -26,14 +26,6 @@ export const REVIEWS = [
       "At the time, Austin was working solo, yet he delivered an e-commerce website that exceeded all our expectations. It was fast, user-friendly, and packed with features like automated shipping labels and AI-powered product management. Finding a Seattle web design company that goes beyond the basics is rare-Austin delivered in every way.",
   },
   {
-    id: "vets-choice",
-    img: "/brands/vets-choice-insurance-logo.png",
-    name: "Rob Dow",
-    title: "Co-Founder, Vets Choice Insurance",
-    quote:
-      "The aftercare is unbeatable. Being an insurance company, we had to go through many rounds of revisions to comply with our legal requirements. Austin was always available to help and make sure we were happy with the final product. I highly recommend them for any web design needs.",
-  },
-  {
     id: "bespoke",
     img: "/client-photos/bespoke-tint-owner-kris-256.webp",
     name: "Kris Meyer",

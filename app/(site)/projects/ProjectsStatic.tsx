@@ -5,7 +5,6 @@ import secondHandPreview from "@/public/assets/Second-Hand-Home.png"
 import entitledPreview from "@/app/images/entitled-preview-v2.webp"
 import IconSpritePreview from "@/app/images/zero-icon-sprite-preview.jpg"
 import rayanStatePreview from "@/public/assets/Rayan_State_Bild.png"
-import vetsChoiceInsurancePreview from "@/images/vets-choice-insurance-preview.webp"
 import { Link } from "@/app/utils/Link"
 import { externalLinks, SITE_SLUGS } from "@/config/siteConfig"
 
@@ -46,18 +45,6 @@ export const STATIC_PROJECTS: StaticProject[] = [
     dataText: "See Case Study",
     ariaLabel: "See Tarkhineh Restaurant Website Build Case Study",
     isExternal: false,
-  },
-  {
-    id: "vets-choice",
-    src: vetsChoiceInsurancePreview,
-    alt: "Vets Choice Insurance Preview",
-    color: "#DA961AA5",
-    type: "Pet Insurance Website",
-    text: "View Website",
-    href: externalLinks.vetsChoice,
-    dataText: "View Website",
-    ariaLabel: "View Vets Choice Insurance Website",
-    isExternal: true,
   },
   {
     id: "zero-icon-sprite",

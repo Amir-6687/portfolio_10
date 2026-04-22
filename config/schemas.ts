@@ -37,13 +37,6 @@ const projectsData: ProjectItem[] = [
     type: "WebSite",
   },
   {
-    name: "Vets Choice Insurance",
-    url: externalLinks.vetsChoice, // external canonical
-    date: "2025-05-20",
-    description: "Pet Insurance Website",
-    type: "WebSite",
-  },
-  {
     name: "Zero Icon Sprite",
     url: externalLinks.zeroIconSprite, // external canonical
     date: "2024-06-15",
