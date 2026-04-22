@@ -10,14 +10,6 @@ export interface ReviewProps {
 
 export const REVIEWS = [
   {
-    id: "entitled",
-    img: "/client-photos/yassine-rhamani-profile-photo.jpeg",
-    name: "Yassine Ramani",
-    title: "CEO, Entitled",
-    quote:
-      "Austin's technical leadership transformed our development process. His implementation of React Zero UI improved our UI performance by 10x, and his mentorship helped level up our entire frontend team. He combines deep technical expertise with the rare ability to communicate complex concepts clearly.",
-  },
-  {
     id: "herba-naturals",
     img: "/brands/herba-naturals-logo.png",
     name: "Sami Raheem",

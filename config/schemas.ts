@@ -36,13 +36,6 @@ const projectsData: ProjectItem[] = [
     description: "Automotive Repair Website",
     type: "WebSite",
   },
-  {
-    name: "Entitled",
-    url: externalLinks.entitled, // external canonical
-    date: "2024-02-10",
-    description: "Event Management Web App",
-    type: "WebApplication",
-  },
 ]
 
 const SITE = DOMAIN_URL.replace(/\/$/, "")
