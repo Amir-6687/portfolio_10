@@ -3,7 +3,6 @@ import { Card } from "@/app/components/ProjectCard/Card"
 import tarkhinehPreview from "@/app/images/Tarkhineh-project.jpg"
 import secondHandPreview from "@/public/assets/Second-Hand-Home.png"
 import entitledPreview from "@/app/images/entitled-preview-v2.webp"
-import IconSpritePreview from "@/app/images/zero-icon-sprite-preview.jpg"
 import rayanStatePreview from "@/public/assets/Rayan_State_Bild.png"
 import { Link } from "@/app/utils/Link"
 import { externalLinks, SITE_SLUGS } from "@/config/siteConfig"
@@ -46,19 +45,6 @@ export const STATIC_PROJECTS: StaticProject[] = [
     ariaLabel: "See Tarkhineh Restaurant Website Build Case Study",
     isExternal: false,
   },
-  {
-    id: "zero-icon-sprite",
-    src: IconSpritePreview,
-    alt: "Zero-Icon-Sprite Preview",
-    color: "#3B06D1A5",
-    type: "SVG Build Tool",
-    text: "View on GitHub",
-    href: externalLinks.zeroIconSprite,
-    dataText: "View on GitHub",
-    ariaLabel: "View React Zero UI Icon Sprite on GitHub",
-    isExternal: true,
-  },
-
   {
     id: "second-hand",
     src: secondHandPreview,

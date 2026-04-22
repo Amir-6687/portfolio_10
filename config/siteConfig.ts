@@ -53,7 +53,6 @@ export const SITE_SLUGS = {
 
 export const externalLinks = {
   rayanState: "https://rayan-state.vercel.app/",
-  zeroIconSprite: "https://github.com/react-zero-ui/icon-sprite",
   zeroCore: "https://github.com/react-zero-ui/core",
   entitled: "https://be-entitled.com/",
 } as const

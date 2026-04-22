@@ -37,13 +37,6 @@ const projectsData: ProjectItem[] = [
     type: "WebSite",
   },
   {
-    name: "Zero Icon Sprite",
-    url: externalLinks.zeroIconSprite, // external canonical
-    date: "2024-06-15",
-    description: "SVG Build Tool",
-    type: "SoftwareApplication",
-  },
-  {
     name: "Entitled",
     url: externalLinks.entitled, // external canonical
     date: "2024-02-10",
