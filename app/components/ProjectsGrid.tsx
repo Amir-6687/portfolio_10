@@ -1,6 +1,5 @@
 "use client"
 import { AnimatedCard, HeroOffset } from "./ProjectCard/AnimatedCard"
-import iaoPreview from "@/app/images/iao-preview-v2.webp"
 import automedicsPreview from "@/app/images/automedics-preview-v2.webp"
 import rayanStatePreview from "@/public/assets/Rayan_State_Bild.png"
 import clsx from "clsx"
@@ -13,7 +12,7 @@ import { externalLinks } from "@/config/siteConfig"
 import tarkhinehPreview from "@/app/images/Tarkhineh-project.jpg"
 import secondHandPreview from "@/public/assets/Second-Hand-Home.png"
 
-const ids = ["second-hand", "rayan-state", "iron-and-oak", "tarkhineh"]
+const ids = ["second-hand", "rayan-state", "tarkhineh"]
 
 export function ProjectsGrid({ className }: { className?: string }) {
   const ref = useRef<HTMLDivElement>(null)
@@ -33,7 +32,6 @@ export function ProjectsGrid({ className }: { className?: string }) {
 
   const OFFSET_TUNING: Record<string, Partial<HeroOffset>> = {
     "rayan-state": { rot: 9, s: responsiveScale, dx: isMobile ? -220 : -30, dy: isMobile ? -120 : -40 },
-    "iron-and-oak": { rot: -5, s: responsiveScale, dx: isMobile ? -230 : -60, dy: isMobile ? -130 : -40 },
     "second-hand": {
       rot: 5,
       s: responsiveScale,
@@ -129,18 +127,6 @@ export function ProjectsGrid({ className }: { className?: string }) {
           progress={progress}
           dataText="View Project"
           href="https://second-hand-vayr.vercel.app/"
-        />
-
-        <AnimatedCard
-          key={"IAO"}
-          src={iaoPreview}
-          alt={"IAO Preview"}
-          offset={offsets["iron-and-oak"]}
-          gridId="iron-and-oak"
-          color="#13739C"
-          type="Private Security"
-          progress={progress}
-          dataText="View Case Study"
         />
       </div>
     </section>

@@ -42,15 +42,6 @@ export const REVIEWS = [
       "Austin took our vision and built a website that makes our business look as professional online as it is in person. We've already seen a huge increase in calls and bookings. Couldn't recommend Austin enough.",
   },
   {
-    id: "iao",
-    img: "/client-photos/aleksandr-butowicz-iron-oak-profile-photo.jpg",
-    name: "Aleks Butokowitz",
-    title: "CEO, Iron & Oak",
-    quote:
-      "Working with Austin felt like working with an in-house team. They took the time to understand our mission and goals, delivering a site that perfectly blended branding and design with seamless functionality. Their expertise as a web design agency was evident in every detail, from performance to aesthetics.",
-  },
-
-  {
     id: "automedics",
     name: "Jeff Egbert",
     title: "Owner, Automedics Kirkland",

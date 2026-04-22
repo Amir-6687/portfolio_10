@@ -12,10 +12,6 @@ const initialOffsets: Record<string, Partial<HeroOffset>> = {
     x: 459.296875,
     y: -748,
   },
-  "iron-and-oak": {
-    x: 118.796875,
-    y: -748,
-  },
   tarkhineh: {
     x: 118.796875, // مقدار اولیه مهم نیست، بعداً calc() مقدار واقعی را می‌گذارد
     y: -980.328125,

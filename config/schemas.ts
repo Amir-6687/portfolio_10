@@ -37,14 +37,6 @@ const projectsData: ProjectItem[] = [
     type: "WebSite",
   },
   {
-    name: "Iron & Oak",
-    url: SITE_SLUGS.projectLinks.iao, // internal case study
-    external: "https://ironandoaksecurity.com",
-    date: "2024-06-15",
-    description: "Private Security Website",
-    type: "WebSite",
-  },
-  {
     name: "Vets Choice Insurance",
     url: externalLinks.vetsChoice, // external canonical
     date: "2025-05-20",

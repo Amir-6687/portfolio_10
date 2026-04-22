@@ -1,6 +1,5 @@
 import { StaticImageData } from "next/image"
 import { Card } from "@/app/components/ProjectCard/Card"
-import iaoPreview from "@/app/images/iao-preview-v2.webp"
 import tarkhinehPreview from "@/app/images/Tarkhineh-project.jpg"
 import secondHandPreview from "@/public/assets/Second-Hand-Home.png"
 import entitledPreview from "@/app/images/entitled-preview-v2.webp"
@@ -84,19 +83,6 @@ export const STATIC_PROJECTS: StaticProject[] = [
     dataText: "View Project",
     ariaLabel: "View Second-Hand Marketplace Project",
     isExternal: true,
-  },
-
-  {
-    id: "iron-oak",
-    src: iaoPreview,
-    alt: "IAO Preview",
-    color: "#13739C",
-    type: "Private Security Website",
-    text: "See Case Study",
-    href: SITE_SLUGS.projectLinks.iao,
-    dataText: "See Case Study",
-    ariaLabel: "See Iron & Oak Website Build Case Study",
-    isExternal: false,
   },
   {
     id: "entitled",
