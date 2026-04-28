@@ -1,0 +1,42 @@
+import { StaticImageData } from "next/image"
+
+export interface ReviewProps {
+  quote: React.ReactNode
+  name: string
+  title: string
+  img: StaticImageData | string
+  id?: string
+}
+
+export const REVIEWS = [
+  {
+    id: "herba-naturals",
+    img: "/brands/herba-naturals-logo.png",
+    name: "Sami Raheem",
+    title: "Owner, Herba Naturals",
+    quote:
+      "At the time, Austin was working solo, yet he delivered an e-commerce website that exceeded all our expectations. It was fast, user-friendly, and packed with features like automated shipping labels and AI-powered product management. Finding a Seattle web design company that goes beyond the basics is rare-Austin delivered in every way.",
+  },
+  {
+    id: "bespoke",
+    img: "/client-photos/bespoke-tint-owner-kris-256.webp",
+    name: "Kris Meyer",
+    title: "Owner, Bespoke Tint",
+    quote:
+      "Austin took our vision and built a website that makes our business look as professional online as it is in person. We've already seen a huge increase in calls and bookings. Couldn't recommend Austin enough.",
+  },
+  {
+    id: "automedics",
+    name: "Jeff Egbert",
+    title: "Owner, Automedics Kirkland",
+    quote: "Austin built our website fast and it works flawlessly. He is always available to answer questions or solve problems. Great experience.",
+    img: "/assets/automedics-logo-optimized.png",
+  },
+] as const satisfies readonly ReviewProps[]
+
+// O(1) lookup
+export const REVIEW_MAP: Record<string, ReviewProps> = Object.fromEntries(REVIEWS.map((r) => [r.id, r]))
+
+export function getReview(id: string) {
+  return REVIEW_MAP[id]
+}
